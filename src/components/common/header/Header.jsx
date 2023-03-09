@@ -23,10 +23,9 @@ const Header = () => {
             </ul>
           </div>
           <div className='button flex'>
+          <Link to="/register" className="btn1">Get Started</Link>
            
-            <button className='btn1'>
-              <i className='fa fa-sign-out'></i> Get Started
-            </button>
+            
           </div>
 
           <div className='toggle'>

@@ -1,6 +1,7 @@
 import React from "react"
 import { footer } from "../../data/Data"
 import "./footer.css"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -9,10 +10,11 @@ const Footer = () => {
         <div className='container'>
           <div className='send flex'>
             <div className='text'>
-              <h1>Do You Have Questions ?</h1>
-              <p>We'll help you to grow your career and growth.</p>
+              <h2>Need professional legal advice?</h2>
+              <p>Get a free consultation with our legal experts</p>
             </div>
-            <button className='btn5'>Free Consultation</button>
+            <Link to="/new" className="btn5">Free Consultation</Link>
+            
           </div>
         </div>
       </section>

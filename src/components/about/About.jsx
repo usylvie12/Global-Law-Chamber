@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <section className='about'>
-        <Back name='About Us' title='About Us - Who We Are?' cover={img} />
+        <Back name='About Us' title='About Us - Who We Are?'  />
         <div className='container flex mtop'>
           <div className='left row'>
             <Heading title='Our Agency Story' subtitle='Check out our company story and work process' />
@@ -21,7 +21,7 @@ const About = () => {
             <button className='btn2'>More About Us</button>
           </div>
           <div className='right row'>
-            <img src='./immio.jpg' alt='' />
+            <img src={img} alt='' />
           </div>
         </div>
       </section>

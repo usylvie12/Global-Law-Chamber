@@ -1,61 +1,72 @@
 export const nav = [
   {
-    text: "home",
+    text: "Home",
     path: "/",
   },
   {
-    text: "about",
+    text: "About",
     path: "/about",
   },
   {
-    text: "services",
+    text: "Services",
     path: "/services",
   },
   
   {
-    text: "contact",
+    text: "Contact",
     path: "/contact",
+  },
+  {
+    text: "New",
+    path: "/new",
   },
 ]
 export const featured = [
   {
     cover: "../images/hero/h1.jpg",
     name: "Insurance Laws",
+    description:"Law surrounding insurance, including insurance policies and claims"
     
   },
   {
     cover: "../images/hero/h2.png",
     name: "Dispute Resolution",
+    description:"the process of resolving a dispute or conflict between different"
     
   },
   {
     cover: "../images/hero/h5.png",
     name: "Criminal Laws",
-    
+    description:"laws concerned with crimes and the punishment of individuals who commit crimes"
   },
   {
     cover: "../images/hero/h4.png",
     name: "Labour Laws",
+    description:"those that mediate the relationship between workers,trade unions, and the government"
     
   },
   {
     cover: "../images/hero/h3.png",
     name: "Gaming Laws",
+    description:"the set of rules and regulations that apply to the gaming or gambling industry"
    
   },
   {
     cover: "../images/hero/h9.png",
     name: "Government Relations",
+    description:"the branch of public relations that helps an organization communicate with governmental publics"
    
   },
   {
     cover: "../images/hero/h7.png",
     name: "Agreements & Contract",
+    description:"An agreement is any understanding or arrangement reached between two or more parties"
    
   },
   {
     cover: "../images/hero/h6.png",
     name: "Legal Representation",
+    description:"representing their clients in court and the work that the lawyers do during the proceedings"
    
   },
 ]

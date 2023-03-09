@@ -14,14 +14,14 @@ const Hero = () => {
             <h1>Get An Attorney Who Will Fight For Your Rights</h1>
 
             <p> 
-            Global Law Chambers Ltd is a well-established, medium-size business law firm. 
-                            We offer a full range of corporate and commercial legal services, including but not limited 
+           Well-established law firm, 
+                            that offer a full range of corporate and commercial legal services, including but not limited 
                             to dispute resolution, litigation, employment, finance, company restructuring and tax.
             </p>
               
               
               
-              <div className="left-link"><Link to="/contact" className="btn6">Free Consultation</Link></div>
+              <div className="left-link"><Link to="/new" className="btn6">Free Consultation</Link></div>
             
           </div>
           

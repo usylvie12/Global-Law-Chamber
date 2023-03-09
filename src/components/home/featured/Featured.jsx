@@ -11,6 +11,7 @@ const Featured = () => {
           <Heading title='Experience & Practices' subtitle='Services that We provide' />
           <FeaturedCard />
         </div>
+        
       </section>
     </>
   )
