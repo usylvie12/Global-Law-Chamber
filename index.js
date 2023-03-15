@@ -10,7 +10,9 @@ const db = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "fullstack#2023",
-    database: "globallawchamber",
+    database: "globallawchamber" ,
+    DB_PORT: 3306
+    
   });
 
   app.get("/", (req, res) => {
@@ -29,7 +31,7 @@ const db = mysql.createConnection({
   });
 
   app.post("/messages", (req, res) => {
-    const q = "INSERT INTO messages(`title`, `desc`) VALUES (?)";
+    const q = "INSERT INTO messages(`title`, `description`) VALUES (?)";
   
     const values = [
       req.body.title,
