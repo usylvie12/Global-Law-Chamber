@@ -14,7 +14,7 @@ const db = mysql.createConnection({
   });
 
   app.get("/", (req, res) => {
-    res.json("hello");
+    res.json("hello World");
   });
 
   app.get("/messages", (req, res) => {
@@ -54,6 +54,6 @@ const db = mysql.createConnection({
   });
   
 
-app.listen(8800, ()=>{
-    console.log('Connected to backend')
-})
+  const PORT = 8800
+app.listen(process.env.PORT || PORT, ()=> console.log('Connected to backend' + PORT ))
+    
